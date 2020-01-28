@@ -32,3 +32,8 @@ This repositry is used to store the useful programs which are written to analyse
 
 -> Tool 7: Bandstructure.py
    - How to use: need work.
+
+
+-> Tool 8: Drawv2.1.py
+   - How to use: Get the output from Tool 3 stored in PDOS firectory. Copy this script in PDOS/. Prepare input file index.txt, which specify atom index in each layer you want       to plot. Make sure the number of atoms in each plane is the same and num of atoms in plane is the max value. If smaller than max number, use 0 to compensate. Need to type      in ISPIN and maximum orbital.
+   - Read in DOS of each atom and add them together to get plane projected DOS. Can include total DOS and DOS of each orbital. Available for both ISPIN=1,2.
