@@ -35,5 +35,10 @@ This repositry is used to store the useful programs which are written to analyse
 
 
 -> Tool 8: Drawv2.1.py
-   - How to use: Get the output from Tool 3 stored in PDOS firectory. Copy this script in PDOS/. Prepare input file index.txt, which specify atom index in each layer you want       to plot. Make sure the number of atoms in each plane is the same and num of atoms in plane is the max value. If smaller than max number, use 0 to compensate. Need to type      in ISPIN and maximum orbital.
+   - How to use: Get the output from Tool 3 stored in PDOS firectory. Copy this script in PDOS/. Prepare input file index.txt, which specify atom index in each layer you want       to plot. Make sure the number of atoms in each plane is the same and num of atoms in plane is the max value. If smaller than max number, use 0 to compensate. Need to type      in ISPIN and maximum orbital. This script will output file in "PlaneXX.txt".
    - Read in DOS of each atom and add them together to get plane projected DOS. Can include total DOS and DOS of each orbital. Available for both ISPIN=1,2.
+
+
+-> Tool 9: plot22.py and plot3.py
+   - How to use: Run Tool 8 first and get all "PlaneXX.txt" files. plot22.py need to type in total number of planes (should be the same as number of output from Tool 8), ISPIN,     max orbital, lowester energy limit you want to plot, high limit, num of orbitals to plot. May modify xy ticks in the code. plot3.py need toi type number of planes to plot      (no need to be the same as output from Tool 8) and index of each plane. The rest of plot3.py is the same as plot22.py.
+   - Read the output of Tool 8 and plot DOS figures plane by plane.
