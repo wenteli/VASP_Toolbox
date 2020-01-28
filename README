@@ -17,4 +17,9 @@ This repositry is used to store the useful programs which are written to analyse
 
 -> Tool 4: Rearrange.py
    - How to use: Prepare input file PSOCAR or CONTCAR. Should modify LayerNum, Layerdist, Inipos and distance tolerance range in the source code.
-   - This code can rearrange the format of POSCAR or CONTCAR plane by plane, meaning that z direction coordinates is aligned from min to max or max to min. This code is useful      to deal with complex heterostructure. 
+   - This code can rearrange the format of POSCAR or CONTCAR plane by plane, meaning that z direction coordinates is aligned from min to max or max to min. This code is useful      to deal with complex heterostructure.
+
+
+-> Tool 5: Shift.py
+   - How to use: Prepare input file POSCAR or CONTCAR in Cartesian coor with just coor info without head. Modify the shift length in the code.
+   - This code can shift the whole coor with a specific length. It is useful in build complex heterostructure. 
