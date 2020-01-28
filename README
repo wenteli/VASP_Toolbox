@@ -7,4 +7,9 @@ This repositry is used to store the useful programs which are written to analyse
 
 -> Tool 2: Mirror.py.
    - How to use: Prepare the input file of POSCAR or CONTCAR. Should modify the vlaue of the mirror plane.
-   - Mirro.py can run the structure of without mirror symmetry and outpu the mirror symmetry structure.
+   - Mirro.py can read the structure of without mirror symmetry and output the mirror symmetry structure.
+
+
+-> Tool 3: AtomDOS.py
+   - How to use: Prepare the input file DOSCAR. Should type in how many atoms in the simulation cell.
+   - AtomDOS.py read the DOSCAR and output DOS for each atom in file "##.txt", where ## is the number index of the atom.
