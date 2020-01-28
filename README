@@ -1,7 +1,7 @@
 This repositry is used to store the useful programs which are written to analyse the VASP results.
 
 -> Tool 1: vtotav5.2.f and AvePOT.py.
-    - How to use: Prepapre input file LOCPOT. Prepare how many components in the simulation cell, total length of the simulation cell along specific direction and lattice const      ant of each component. 
+    - How to use: Prepapre input file LOCPOT. Prepare how many components in the simulation cell, total length of the simulation cell along specific direction and lattice const      ant of each component. May need to modify vtotav5.2.f for very large length scale and increase number of grids NGXM and NOUTM.
     - vtotav.5.2.f can read LOCPOT from VASP and convert it to VLINE.txt. AvePOT.py can read VLINE.txt and calculate average potential.
 
 
@@ -22,4 +22,9 @@ This repositry is used to store the useful programs which are written to analyse
 
 -> Tool 5: Shift.py
    - How to use: Prepare input file POSCAR or CONTCAR in Cartesian coor with just coor info without head. Modify the shift length in the code.
-   - This code can shift the whole coor with a specific length. It is useful in build complex heterostructure. 
+   - This code can shift the whole coor with a specific length. It is useful in build complex heterostructure.
+
+
+-> Tool 6: DirecttoCar.py
+   - How to use: Prepare POSCAR or CONTCAR without head. Modify x y z simulation size in the code.
+   - Convert direct coor system to Cartesian.
