@@ -2,4 +2,9 @@ This repositry is used to store the useful programs which are written to analyse
 
 -> Tool 1: vtotav5.2.f and AvePOT.py.
     - How to use: Prepapre input file LOCPOT. Prepare how many components in the simulation cell, total length of the simulation cell along specific direction and lattice constant of each component. 
-        vtotav.5.2.f can read LOCPOT from VASP and convert it to VLINE.txt. AvePOT.py can read VLINE.txt and calculate average potential.
+    - vtotav.5.2.f can read LOCPOT from VASP and convert it to VLINE.txt. AvePOT.py can read VLINE.txt and calculate average potential.
+
+
+-> Tool 2: Mirror.py.
+   - How to use: Prepare the input file of POSCAR or CONTCAR. Should modify the vlaue of the mirror plane.
+   - Mirro.py can run the structure of without mirror symmetry and outpu the mirror symmetry structure.
