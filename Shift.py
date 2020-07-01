@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 # Author: Wente Li
-# Modified date: v1.0 1/4/2019
+# Modified date: v1.1 7/1/2020
 # Purpose: To make the slab in the center of the simulation cell
 
 
